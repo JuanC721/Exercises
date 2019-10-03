@@ -21,10 +21,7 @@ public class Main {
 				A[j] = Integer.parseInt(br.readLine());
 			}
 			System.out.println(DCClosestNumber(A, x));
-		}
-		
-		
-		
+		}	
 	}
 	
 	public static int DCClosestNumber(int[] A, int x) {
@@ -60,7 +57,4 @@ public class Main {
 			return a>b ? b : a;
 		}
 	}
-	
-	
-	
 }
